@@ -1,0 +1,28 @@
+name: Plugin Check
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  plugin-check:
+    name: WordPress Plugin Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: PHP Lint
+        run: |
+          find . -name "*.php" -not -path "./vendor/*" | xargs -n 1 php -l
+
+      - name: Run WordPress Plugin Check
+        uses: wordpress/plugin-check-action@v1
+        with:
+          # Optional: Specify the plugin slug if different from repo name
+          # slug: wmt-order-sync-for-xero 
+          # Checks for errors only by default, set to true to include warnings
+          info: true
+          warnings: true
