@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Order Sync for Xero 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-22 21:10+0000\n"
+"PO-Revision-Date: 2026-04-22 21:10+0000\n"
+"Last-Translator: Antigravity AI\n"
+"Language-Team: Dutch <nl_NL@li.org>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Antigravity AI\n"
+
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+msgid "Accounts not fetched (Disconnected)"
+msgstr "Accounts niet opgehaald (Niet verbonden)"
+
+msgid "An error occurred during AJAX call."
+msgstr "Er is een fout opgetreden tijdens de AJAX-aanroep."
+
+msgid "Are you sure you want to disconnect from Xero? This will remove all stored tokens."
+msgstr "Weet u zeker dat u de verbinding met Xero wilt verbreken? Hiermee worden alle opgeslagen tokens verwijderd."
+
+msgid "Attempting to synchronize order with Xero."
+msgstr "Poging om bestelling te synchroniseren met Xero."
+
+msgid "Connected"
+msgstr "Verbonden"
+
+msgid "Disconnect Xero"
+msgstr "Xero ontkoppelen"
+
+msgid "Disconnect failed: "
+msgstr "Ontkoppelen mislukt: "
+
+msgid "Disconnected from Xero."
+msgstr "Verbinding met Xero verbroken."
+
+msgid "Disconnecting..."
+msgstr "Bezig met ontkoppelen..."
+
+msgid "Guest Checkout Customer WOO-%s"
+msgstr "Gastklant WOO-%s"
+
+msgid "Permission denied."
+msgstr "Toegang geweigerd."
+
+msgid "Refreshing Xero Token"
+msgstr "Xero-token vernieuwen"
+
+msgid "SECURITY ERROR: Xero API encryption key is not defined. Please define XERO_ENCRYPTION_KEY or AUTH_KEY in wp-config.php."
+msgstr "BEVEILIGINGSFOUT: Xero API-coderingssleutel is niet gedefinieerd. Definieer XERO_ENCRYPTION_KEY of AUTH_KEY in wp-config.php."
+
+msgid "Shipping Cost (Order ID: %s)"
+msgstr "Verzendkosten (Bestel-ID: %s)"
+
+msgid "Successfully disconnected. Refreshing page..."
+msgstr "Succesvol ontkoppeld. Pagina vernieuwen..."
+
+msgid "Tenant ID not found. Try reconnecting."
+msgstr "Tenant-ID niet gevonden. Probeer opnieuw verbinding te maken."
+
+msgid "Unknown error"
+msgstr "Onbekende fout"
+
+msgid "Xero API Error (%1$s): %2$s"
+msgstr "Xero API-fout (%1$s): %2$s"
+
+msgid "Xero API HTTP Error (%1$s - Code %2$s): %3$s"
+msgstr "Xero API HTTP-fout (%1$s - Code %2$s): %3$s"
+
+msgid "Xero Invoicing Settings"
+msgstr "Xero Facturatie Instellingen"
+
+msgid "Xero Invoicing"
+msgstr "Xero Facturatie"
+
+msgid "Xero Item Created successfully for SKU: %s"
+msgstr "Xero-item succesvol aangemaakt voor SKU: %s"
+
+msgid "Xero Item Creation Failed for SKU: %s"
+msgstr "Aanmaken Xero-item mislukt voor SKU: %s"
+
+msgid "Xero OAuth Error: Client ID or PKCE verifier missing/could not be decrypted."
+msgstr "Xero OAuth-fout: Client-ID of PKCE-verifier ontbreekt/kon niet worden ontsleuteld."
+
+msgid "Xero OAuth Token Error: %s"
+msgstr "Xero OAuth Token Fout: %s"
+
+msgid "Xero OAuth Token Failure: %s"
+msgstr "Xero OAuth Token Mislukt: %s"
+
+msgid "Xero Sync Failed: Could not get contact details from order."
+msgstr "Xero-sync mislukt: Kon contactgegevens niet uit de bestelling halen."
+
+msgid "Xero Sync Failed: Invoice creation failed. Check PHP error logs."
+msgstr "Xero-sync mislukt: Factuur aanmaken mislukt. Controleer PHP-foutlogs."
+
+msgid "Xero Sync Failed: No valid line items found."
+msgstr "Xero-sync mislukt: Geen geldige regelitems gevonden."
+
+msgid "Xero Sync Failed: Plugin not connected or token expired."
+msgstr "Xero-sync mislukt: Plugin niet verbonden of token verlopen."
+
+msgid "Xero Sync Partially Successful: Invoice %1$s created, but Payment Registration Failed (Check Xero Account Code for %2$s)."
+msgstr "Xero-sync gedeeltelijk geslaagd: Factuur %1$s aangemaakt, maar betalingsregistratie mislukt (Controleer Xero-accountcode voor %2$s)."
+
+msgid "Xero Sync Skipped: Order status is completed but WooCommerce does not consider it paid."
+msgstr "Xero-sync overgeslagen: Bestelstatus is afgerond maar WooCommerce beschouwt deze niet als betaald."
+
+msgid "Xero Sync Successful (Invoice Created: %1$s). Payment Skipped: WooCommerce payment method \"%2$s\" is **not mapped** to a Xero Bank Account Code in the plugin settings. Please configure mappings to register payments automatically."
+msgstr "Xero-sync succesvol (Factuur aangemaakt: %1$s). Betaling overgeslagen: WooCommerce-betaalmethode \"%2$s\" is **niet gekoppeld** aan een Xero-bankaccountcode in de plugin-instellingen. Configureer koppelingen om betalingen automatisch te registreren."
+
+msgid "Xero Sync Successful: Invoice %s created and marked as paid."
+msgstr "Xero-sync succesvol: Factuur %s aangemaakt en als betaald gemarkeerd."
+
+msgid "Xero Synchronization failed. See debug log for details."
+msgstr "Xero-synchronisatie mislukt. Zie debug-log voor details."
+
+msgid "Xero Tenant ID Error: %s"
+msgstr "Xero Tenant-ID Fout: %s"
+
+msgid "Xero Tenant ID Failure: Could not find tenant ID. Response: %s"
+msgstr "Xero Tenant-ID Mislukt: Kon tenant-ID niet vinden. Reactie: %s"
+
+msgid "Xero Token Refresh API Error: %s"
+msgstr "Xero Token Vernieuwen API-fout: %s"
+
+msgid "Xero Token Refresh Error: Refresh token missing."
+msgstr "Xero Token Vernieuwen Fout: Refresh token ontbreekt."
+
+msgid "Xero Token Refresh Failure: %s"
+msgstr "Xero Token Vernieuwen Mislukt: %s"
+
+msgid "Enter your Xero Application Client ID"
+msgstr "Voer uw Xero Application Client ID in"
+
+msgid "(Please save your Client ID first)"
+msgstr "(Sla eerst uw Client-ID op)"
+
+msgid "-- Select Sales Account --"
+msgstr "-- Selecteer Verkoopaccount --"
+
+msgid "-- Select Xero Account --"
+msgstr "-- Selecteer Xero-account --"
+
+msgid "1. Xero API Connection"
+msgstr "1. Xero API Verbinding"
+
+msgid "2. Default Accounting Settings"
+msgstr "2. Standaard Boekhoudinstellingen"
+
+msgid "3. Payment Method Mapping"
+msgstr "3. Betaalmethode Koppeling"
+
+msgid "CONNECTED"
+msgstr "VERBONDEN"
+
+msgid "Client ID (PKCE)"
+msgstr "Client ID (PKCE)"
+
+msgid "Connect to Xero App"
+msgstr "Verbinden met Xero App"
+
+msgid "Connection Status"
+msgstr "Verbindingsstatus"
+
+msgid "Copy this URL exactly into the \"Redirect URI\" field in your Xero App settings."
+msgstr "Kopieer deze URL exact naar het veld \"Redirect URI\" in uw Xero App-instellingen."
+
+msgid "DISCONNECTED"
+msgstr "NIET VERBONDEN"
+
+msgid "Default Sales Account Code"
+msgstr "Standaard Verkoopaccountcode"
+
+msgid "Failed to connect to Xero. Check your Client ID and Redirect URI setup."
+msgstr "Verbinding met Xero mislukt. Controleer uw Client-ID en Redirect URI-instellingen."
+
+msgid "Map each active WooCommerce payment method to the corresponding Xero Bank Account code where the funds are deposited. Accounts are dynamically pulled from your connected Xero organization."
+msgstr "Koppel elke actieve WooCommerce-betaalmethode aan de overeenkomstige Xero-bankaccountcode waar de gelden worden gestort. Accounts worden dynamisch opgehaald uit uw verbonden Xero-organisatie."
+
+msgid "No active WooCommerce payment gateways found."
+msgstr "Geen actieve WooCommerce-betaalmethoden gevonden."
+
+msgid "Once connected to Xero, the available bank accounts will appear in the dropdown menus above."
+msgstr "Zodra verbonden met Xero, verschijnen de beschikbare bankaccounts in de bovenstaande dropdown-menu's."
+
+msgid "Order Sync For Xero"
+msgstr "Bestelsync voor Xero"
+
+msgid "Redirect URI"
+msgstr "Redirect URI"
+
+msgid "Security check failed: Invalid OAuth state."
+msgstr "Beveiligingscontrole mislukt: Ongeldige OAuth-status."
+
+msgid "Successfully connected to Xero!"
+msgstr "Succesvol verbonden met Xero!"
+
+msgid "Tenant ID Status: "
+msgstr "Tenant-ID Status: "
+
+msgid "The default Xero Account Code for product sales (Revenue). Accounts are dynamically pulled from your connected Xero organization."
+msgstr "De standaard Xero-accountcode voor productverkopen (Omzet). Accounts worden dynamisch opgehaald uit uw verbonden Xero-organisatie."
+
+msgid "Warning:"
+msgstr "Waarschuwing:"
+
+msgid "WooCommerce Payment Method"
+msgstr "WooCommerce-betaalmethode"
+
+msgid "Xero Bank Account Code"
+msgstr "Xero Bankaccountcode"
+
+msgid "You must be connected to Xero to fetch Sales Account Codes. Please connect in Section 1."
+msgstr "U moet verbonden zijn met Xero om verkoopaccountcodes op te halen. Maak verbinding in Sectie 1."
+
+msgid "You must be connected to Xero to fetch and map Bank Accounts. Please connect in Section 1."
+msgstr "U moet verbonden zijn met Xero om bankaccounts op te halen en te koppelen. Maak verbinding in Sectie 1."
+
+msgid "You must save your Client ID above before connecting."
+msgstr "U moet uw Client-ID hierboven opslaan voordat u verbinding maakt."
+
+msgid "Your Client ID from the Xero Developer Portal. Since you are using PKCE, no secret is required."
+msgstr "Uw Client-ID uit het Xero Developer Portal. Omdat u PKCE gebruikt, is er geen geheim nodig."
+

@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Order Sync for Xero 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-22 21:10+0000\n"
+"PO-Revision-Date: 2026-04-22 21:10+0000\n"
+"Last-Translator: Antigravity AI\n"
+"Language-Team: Italian <it_IT@li.org>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Antigravity AI\n"
+
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+msgid "Accounts not fetched (Disconnected)"
+msgstr "Conti non recuperati (Disconnesso)"
+
+msgid "An error occurred during AJAX call."
+msgstr "Si è verificato un errore durante la chiamata AJAX."
+
+msgid "Are you sure you want to disconnect from Xero? This will remove all stored tokens."
+msgstr "Sei sicuro di voler disconnetterti da Xero? Questo rimuoverà tutti i token memorizzati."
+
+msgid "Attempting to synchronize order with Xero."
+msgstr "Tentativo di sincronizzazione dell'ordine con Xero."
+
+msgid "Connected"
+msgstr "Connesso"
+
+msgid "Disconnect Xero"
+msgstr "Disconnetti Xero"
+
+msgid "Disconnect failed: "
+msgstr "Disconnessione fallita: "
+
+msgid "Disconnected from Xero."
+msgstr "Disconnesso da Xero."
+
+msgid "Disconnecting..."
+msgstr "Disconnessione in corso..."
+
+msgid "Guest Checkout Customer WOO-%s"
+msgstr "Cliente ospite WOO-%s"
+
+msgid "Permission denied."
+msgstr "Permesso negato."
+
+msgid "Refreshing Xero Token"
+msgstr "Aggiornamento del token Xero"
+
+msgid "SECURITY ERROR: Xero API encryption key is not defined. Please define XERO_ENCRYPTION_KEY or AUTH_KEY in wp-config.php."
+msgstr "ERRORE DI SICUREZZA: La chiave di crittografia dell'API Xero non è definita. Si prega di definire XERO_ENCRYPTION_KEY o AUTH_KEY in wp-config.php."
+
+msgid "Shipping Cost (Order ID: %s)"
+msgstr "Costo di spedizione (ID ordine: %s)"
+
+msgid "Successfully disconnected. Refreshing page..."
+msgstr "Disconnesso con successo. Aggiornamento della pagina..."
+
+msgid "Tenant ID not found. Try reconnecting."
+msgstr "ID tenant non trovato. Prova a riconnetterti."
+
+msgid "Unknown error"
+msgstr "Errore sconosciuto"
+
+msgid "Xero API Error (%1$s): %2$s"
+msgstr "Errore API Xero (%1$s): %2$s"
+
+msgid "Xero API HTTP Error (%1$s - Code %2$s): %3$s"
+msgstr "Errore HTTP API Xero (%1$s - Codice %2$s): %3$s"
+
+msgid "Xero Invoicing Settings"
+msgstr "Impostazioni fatturazione Xero"
+
+msgid "Xero Invoicing"
+msgstr "Fatturazione Xero"
+
+msgid "Xero Item Created successfully for SKU: %s"
+msgstr "Articolo Xero creato con successo per lo SKU: %s"
+
+msgid "Xero Item Creation Failed for SKU: %s"
+msgstr "Creazione articolo Xero fallita per lo SKU: %s"
+
+msgid "Xero OAuth Error: Client ID or PKCE verifier missing/could not be decrypted."
+msgstr "Errore OAuth Xero: ID cliente o verificatore PKCE mancante o impossibile da decrittografare."
+
+msgid "Xero OAuth Token Error: %s"
+msgstr "Errore token OAuth Xero: %s"
+
+msgid "Xero OAuth Token Failure: %s"
+msgstr "Fallimento token OAuth Xero: %s"
+
+msgid "Xero Sync Failed: Could not get contact details from order."
+msgstr "Sincronizzazione Xero fallita: Impossibile ottenere i dettagli di contatto dall'ordine."
+
+msgid "Xero Sync Failed: Invoice creation failed. Check PHP error logs."
+msgstr "Sincronizzazione Xero fallita: Creazione fattura fallita. Controlla i log degli errori PHP."
+
+msgid "Xero Sync Failed: No valid line items found."
+msgstr "Sincronizzazione Xero fallita: Nessun elemento di riga valido trovato."
+
+msgid "Xero Sync Failed: Plugin not connected or token expired."
+msgstr "Sincronizzazione Xero fallita: Plugin non connesso o token scaduto."
+
+msgid "Xero Sync Partially Successful: Invoice %1$s created, but Payment Registration Failed (Check Xero Account Code for %2$s)."
+msgstr "Sincronizzazione Xero parzialmente riuscita: Fattura %1$s creata, ma registrazione del pagamento fallita (Controlla il codice conto Xero per %2$s)."
+
+msgid "Xero Sync Skipped: Order status is completed but WooCommerce does not consider it paid."
+msgstr "Sincronizzazione Xero saltata: Lo stato dell'ordine è completato ma WooCommerce non lo considera pagato."
+
+msgid "Xero Sync Successful (Invoice Created: %1$s). Payment Skipped: WooCommerce payment method \"%2$s\" is **not mapped** to a Xero Bank Account Code in the plugin settings. Please configure mappings to register payments automatically."
+msgstr "Sincronizzazione Xero riuscita (Fattura creata: %1$s). Pagamento saltato: Il metodo di pagamento WooCommerce \"%2$s\" non è mappato a un codice conto bancario Xero nelle impostazioni del plugin. Si prega di configurare le mappature per registrare i pagamenti automaticamente."
+
+msgid "Xero Sync Successful: Invoice %s created and marked as paid."
+msgstr "Sincronizzazione Xero riuscita: Fattura %s creata e contrassegnata come pagata."
+
+msgid "Xero Synchronization failed. See debug log for details."
+msgstr "Sincronizzazione Xero fallita. Consulta il log di debug per i dettagli."
+
+msgid "Xero Tenant ID Error: %s"
+msgstr "Errore ID tenant Xero: %s"
+
+msgid "Xero Tenant ID Failure: Could not find tenant ID. Response: %s"
+msgstr "Fallimento ID tenant Xero: Impossibile trovare l'ID tenant. Risposta: %s"
+
+msgid "Xero Token Refresh API Error: %s"
+msgstr "Errore API di aggiornamento token Xero: %s"
+
+msgid "Xero Token Refresh Error: Refresh token missing."
+msgstr "Errore di aggiornamento token Xero: Token di aggiornamento mancante."
+
+msgid "Xero Token Refresh Failure: %s"
+msgstr "Fallimento aggiornamento token Xero: %s"
+
+msgid "Enter your Xero Application Client ID"
+msgstr "Inserisci l'ID cliente della tua applicazione Xero"
+
+msgid "(Please save your Client ID first)"
+msgstr "(Per favore, salva prima il tuo ID cliente)"
+
+msgid "-- Select Sales Account --"
+msgstr "-- Seleziona conto vendite --"
+
+msgid "-- Select Xero Account --"
+msgstr "-- Seleziona conto Xero --"
+
+msgid "1. Xero API Connection"
+msgstr "1. Connessione API Xero"
+
+msgid "2. Default Accounting Settings"
+msgstr "2. Impostazioni contabili predefinite"
+
+msgid "3. Payment Method Mapping"
+msgstr "3. Mappatura dei metodi di pagamento"
+
+msgid "CONNECTED"
+msgstr "CONNESSO"
+
+msgid "Client ID (PKCE)"
+msgstr "ID cliente (PKCE)"
+
+msgid "Connect to Xero App"
+msgstr "Connetti all'app Xero"
+
+msgid "Connection Status"
+msgstr "Stato della connessione"
+
+msgid "Copy this URL exactly into the \"Redirect URI\" field in your Xero App settings."
+msgstr "Copia questo URL esattamente nel campo \"Redirect URI\" nelle impostazioni della tua app Xero."
+
+msgid "DISCONNECTED"
+msgstr "DISCONNESSO"
+
+msgid "Default Sales Account Code"
+msgstr "Codice conto vendite predefinito"
+
+msgid "Failed to connect to Xero. Check your Client ID and Redirect URI setup."
+msgstr "Connessione a Xero fallita. Controlla l'ID cliente e la configurazione dell'URI di reindirizzamento."
+
+msgid "Map each active WooCommerce payment method to the corresponding Xero Bank Account code where the funds are deposited. Accounts are dynamically pulled from your connected Xero organization."
+msgstr "Mappa ogni metodo di pagamento WooCommerce attivo al corrispondente codice conto bancario Xero in cui vengono depositati i fondi. I conti vengono recuperati dinamicamente dalla tua organizzazione Xero connessa."
+
+msgid "No active WooCommerce payment gateways found."
+msgstr "Nessun gateway di pagamento WooCommerce attivo trovato."
+
+msgid "Once connected to Xero, the available bank accounts will appear in the dropdown menus above."
+msgstr "Una volta connesso a Xero, i conti bancari disponibili appariranno nei menu a discesa sopra."
+
+msgid "Order Sync For Xero"
+msgstr "Sincronizzazione ordini per Xero"
+
+msgid "Redirect URI"
+msgstr "URI di reindirizzamento"
+
+msgid "Security check failed: Invalid OAuth state."
+msgstr "Controllo di sicurezza fallito: Stato OAuth non valido."
+
+msgid "Successfully connected to Xero!"
+msgstr "Connesso con successo a Xero!"
+
+msgid "Tenant ID Status: "
+msgstr "Stato ID tenant: "
+
+msgid "The default Xero Account Code for product sales (Revenue). Accounts are dynamically pulled from your connected Xero organization."
+msgstr "Il codice conto Xero predefinito per le vendite di prodotti (Entrate). I conti vengono recuperati dinamicamente dalla tua organizzazione Xero connessa."
+
+msgid "Warning:"
+msgstr "Avvertimento:"
+
+msgid "WooCommerce Payment Method"
+msgstr "Metodo di pagamento WooCommerce"
+
+msgid "Xero Bank Account Code"
+msgstr "Codice conto bancario Xero"
+
+msgid "You must be connected to Xero to fetch Sales Account Codes. Please connect in Section 1."
+msgstr "Devi essere connesso a Xero per recuperare i codici conto vendite. Si prega di connettersi nella Sezione 1."
+
+msgid "You must be connected to Xero to fetch and map Bank Accounts. Please connect in Section 1."
+msgstr "Devi essere connesso a Xero per recuperare e mappare i conti bancari. Si prega di connettersi nella Sezione 1."
+
+msgid "You must save your Client ID above before connecting."
+msgstr "Devi salvare il tuo ID cliente sopra prima di connetterti."
+
+msgid "Your Client ID from the Xero Developer Portal. Since you are using PKCE, no secret is required."
+msgstr "Il tuo ID cliente dal portale per sviluppatori Xero. Poiché utilizzi PKCE, non è richiesto alcun segreto."
+

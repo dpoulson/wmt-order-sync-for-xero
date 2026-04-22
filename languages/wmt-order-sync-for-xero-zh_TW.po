@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Order Sync for Xero 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-22 21:10+0000\n"
+"PO-Revision-Date: 2026-04-22 21:10+0000\n"
+"Last-Translator: Antigravity AI\n"
+"Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Antigravity AI\n"
+
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+msgid "Accounts not fetched (Disconnected)"
+msgstr "未獲取帳戶（已斷開連接）"
+
+msgid "An error occurred during AJAX call."
+msgstr "AJAX 呼叫期間發生錯誤。"
+
+msgid "Are you sure you want to disconnect from Xero? This will remove all stored tokens."
+msgstr "您確定要斷開與 Xero 的連接嗎？這將刪除所有存儲的令牌。"
+
+msgid "Attempting to synchronize order with Xero."
+msgstr "正在嘗試將訂單同步到 Xero。"
+
+msgid "Connected"
+msgstr "已連接"
+
+msgid "Disconnect Xero"
+msgstr "斷開 Xero 連接"
+
+msgid "Disconnect failed: "
+msgstr "斷開連接失敗："
+
+msgid "Disconnected from Xero."
+msgstr "已從 Xero 斷開連接。"
+
+msgid "Disconnecting..."
+msgstr "正在斷開連接..."
+
+msgid "Guest Checkout Customer WOO-%s"
+msgstr "訪客結帳客戶 WOO-%s"
+
+msgid "Permission denied."
+msgstr "權限被拒絕。"
+
+msgid "Refreshing Xero Token"
+msgstr "正在刷新 Xero 令牌"
+
+msgid "SECURITY ERROR: Xero API encryption key is not defined. Please define XERO_ENCRYPTION_KEY or AUTH_KEY in wp-config.php."
+msgstr "安全錯誤：未定義 Xero API 加密密鑰。請在 wp-config.php 中定義 XERO_ENCRYPTION_KEY 或 AUTH_KEY。"
+
+msgid "Shipping Cost (Order ID: %s)"
+msgstr "運費 (訂單 ID: %s)"
+
+msgid "Successfully disconnected. Refreshing page..."
+msgstr "成功斷開連接。正在刷新頁面..."
+
+msgid "Tenant ID not found. Try reconnecting."
+msgstr "未找到租戶 ID。請嘗試重新連接。"
+
+msgid "Unknown error"
+msgstr "未知錯誤"
+
+msgid "Xero API Error (%1$s): %2$s"
+msgstr "Xero API 錯誤 (%1$s): %2$s"
+
+msgid "Xero API HTTP Error (%1$s - Code %2$s): %3$s"
+msgstr "Xero API HTTP 錯誤 (%1$s - 代碼 %2$s): %3$s"
+
+msgid "Xero Invoicing Settings"
+msgstr "Xero 發票設置"
+
+msgid "Xero Invoicing"
+msgstr "Xero 發票"
+
+msgid "Xero Item Created successfully for SKU: %s"
+msgstr "SKU: %s 的 Xero 項目已成功創建"
+
+msgid "Xero Item Creation Failed for SKU: %s"
+msgstr "SKU: %s 的 Xero 項目創建失敗"
+
+msgid "Xero OAuth Error: Client ID or PKCE verifier missing/could not be decrypted."
+msgstr "Xero OAuth 錯誤：客戶端 ID 或 PKCE 驗證碼缺失/無法解密。"
+
+msgid "Xero OAuth Token Error: %s"
+msgstr "Xero OAuth 令牌錯誤：%s"
+
+msgid "Xero OAuth Token Failure: %s"
+msgstr "Xero OAuth 令牌失敗：%s"
+
+msgid "Xero Sync Failed: Could not get contact details from order."
+msgstr "Xero 同步失敗：無法從訂單中獲取聯繫方式詳情。"
+
+msgid "Xero Sync Failed: Invoice creation failed. Check PHP error logs."
+msgstr "Xero 同步失敗：發票創建失敗。請檢查 PHP 錯誤日誌。"
+
+msgid "Xero Sync Failed: No valid line items found."
+msgstr "Xero 同步失敗：未找到有效商品。"
+
+msgid "Xero Sync Failed: Plugin not connected or token expired."
+msgstr "Xero 同步失敗：插件未連接或令牌已過期。"
+
+msgid "Xero Sync Partially Successful: Invoice %1$s created, but Payment Registration Failed (Check Xero Account Code for %2$s)."
+msgstr "Xero 同步部分成功：發票 %1$s 已創建，但付款註冊失敗（請檢查 %2$s 的 Xero 帳戶代碼）。"
+
+msgid "Xero Sync Skipped: Order status is completed but WooCommerce does not consider it paid."
+msgstr "Xero 同步已跳過：訂單狀態為已完成，但 WooCommerce 認為尚未付款。"
+
+msgid "Xero Sync Successful (Invoice Created: %1$s). Payment Skipped: WooCommerce payment method \"%2$s\" is **not mapped** to a Xero Bank Account Code in the plugin settings. Please configure mappings to register payments automatically."
+msgstr "Xero 同步成功（發票已創建：%1$s）。已跳過付款：WooCommerce 付款方式“%2$s”尚未在插件設置中**映射**到 Xero 銀行帳戶代碼。請配置映射以自動註冊付款。"
+
+msgid "Xero Sync Successful: Invoice %s created and marked as paid."
+msgstr "Xero 同步成功：發票 %s 已創建並標記為已付款。"
+
+msgid "Xero Synchronization failed. See debug log for details."
+msgstr "Xero 同步失敗。有關詳細信息，請參閱調試日誌。"
+
+msgid "Xero Tenant ID Error: %s"
+msgstr "Xero 租戶 ID 錯誤：%s"
+
+msgid "Xero Tenant ID Failure: Could not find tenant ID. Response: %s"
+msgstr "Xero 租戶 ID 失敗：找不到租戶 ID。響應：%s"
+
+msgid "Xero Token Refresh API Error: %s"
+msgstr "Xero 令牌刷新 API 錯誤：%s"
+
+msgid "Xero Token Refresh Error: Refresh token missing."
+msgstr "Xero 令牌刷新錯誤：刷新令牌缺失。"
+
+msgid "Xero Token Refresh Failure: %s"
+msgstr "Xero 令牌刷新失敗：%s"
+
+msgid "Enter your Xero Application Client ID"
+msgstr "進入您的 Xero 應用程序客戶端 ID"
+
+msgid "(Please save your Client ID first)"
+msgstr "（請先保存您的客戶端 ID）"
+
+msgid "-- Select Sales Account --"
+msgstr "-- 選擇銷售帳戶 --"
+
+msgid "-- Select Xero Account --"
+msgstr "-- 選擇 Xero 帳戶 --"
+
+msgid "1. Xero API Connection"
+msgstr "1. Xero API 連接"
+
+msgid "2. Default Accounting Settings"
+msgstr "2. 默認會計設置"
+
+msgid "3. Payment Method Mapping"
+msgstr "3. 付款方式映射"
+
+msgid "CONNECTED"
+msgstr "已連接"
+
+msgid "Client ID (PKCE)"
+msgstr "客戶端 ID (PKCE)"
+
+msgid "Connect to Xero App"
+msgstr "連接到 Xero 應用"
+
+msgid "Connection Status"
+msgstr "連接狀態"
+
+msgid "Copy this URL exactly into the \"Redirect URI\" field in your Xero App settings."
+msgstr "請將此 URL 準確複製到 Xero 應用設置中的“重定向 URI”字段。"
+
+msgid "DISCONNECTED"
+msgstr "已斷開連接"
+
+msgid "Default Sales Account Code"
+msgstr "默認銷售帳戶代碼"
+
+msgid "Failed to connect to Xero. Check your Client ID and Redirect URI setup."
+msgstr "連接 Xero 失敗。請檢查您的客戶端 ID 和重定向 URI 設置。"
+
+msgid "Map each active WooCommerce payment method to the corresponding Xero Bank Account code where the funds are deposited. Accounts are dynamically pulled from your connected Xero organization."
+msgstr "將每個活躍的 WooCommerce 付款方式映射到相應的 Xero 銀行帳戶代碼。帳戶將從您連接的 Xero 組織中動態獲取。"
+
+msgid "No active WooCommerce payment gateways found."
+msgstr "未找到活躍的 WooCommerce 付款網關。"
+
+msgid "Once connected to Xero, the available bank accounts will appear in the dropdown menus above."
+msgstr "連接到 Xero 後，可用的銀行帳戶將出現在上方的下拉菜單中。"
+
+msgid "Order Sync For Xero"
+msgstr "Xero 訂單同步"
+
+msgid "Redirect URI"
+msgstr "重定向 URI"
+
+msgid "Security check failed: Invalid OAuth state."
+msgstr "安全檢查失敗：OAuth 狀態無效。"
+
+msgid "Successfully connected to Xero!"
+msgstr "成功連接到 Xero！"
+
+msgid "Tenant ID Status: "
+msgstr "租戶 ID 狀態："
+
+msgid "The default Xero Account Code for product sales (Revenue). Accounts are dynamically pulled from your connected Xero organization."
+msgstr "產品銷售（收入）的默認 Xero 帳戶代碼。帳戶將從您連接的 Xero 組織中動態獲取。"
+
+msgid "Warning:"
+msgstr "警告："
+
+msgid "WooCommerce Payment Method"
+msgstr "WooCommerce 付款方式"
+
+msgid "Xero Bank Account Code"
+msgstr "Xero 銀行帳戶代碼"
+
+msgid "You must be connected to Xero to fetch Sales Account Codes. Please connect in Section 1."
+msgstr "您必須連接到 Xero 才能獲取銷售帳戶代碼。請在第 1 節中進行連接。"
+
+msgid "You must be connected to Xero to fetch and map Bank Accounts. Please connect in Section 1."
+msgstr "您必須連接到 Xero 才能獲取並映射銀行帳戶。請在第 1 節中進行連接。"
+
+msgid "You must save your Client ID above before connecting."
+msgstr "連接前，您必須保存上方的客戶端 ID。"
+
+msgid "Your Client ID from the Xero Developer Portal. Since you are using PKCE, no secret is required."
+msgstr "您在 Xero 開發者門戶中的客戶端 ID。由於您使用的是 PKCE，因此不需要 Client Secret。"
+

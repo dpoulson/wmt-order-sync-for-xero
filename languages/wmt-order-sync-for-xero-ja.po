@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Order Sync for Xero 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-22 21:10+0000\n"
+"PO-Revision-Date: 2026-04-22 21:10+0000\n"
+"Last-Translator: Antigravity AI\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Antigravity AI\n"
+
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+msgid "Accounts not fetched (Disconnected)"
+msgstr "アカウントが取得されていません（切断済み）"
+
+msgid "An error occurred during AJAX call."
+msgstr "AJAX呼び出し中にエラーが発生しました。"
+
+msgid "Are you sure you want to disconnect from Xero? This will remove all stored tokens."
+msgstr "Xeroからの接続を解除してもよろしいですか？これにより、保存されているすべてのトークンが削除されます。"
+
+msgid "Attempting to synchronize order with Xero."
+msgstr "注文をXeroと同期しようとしています。"
+
+msgid "Connected"
+msgstr "接続済み"
+
+msgid "Disconnect Xero"
+msgstr "Xeroを切断"
+
+msgid "Disconnect failed: "
+msgstr "切断に失敗しました: "
+
+msgid "Disconnected from Xero."
+msgstr "Xeroから切断されました。"
+
+msgid "Disconnecting..."
+msgstr "切断中..."
+
+msgid "Guest Checkout Customer WOO-%s"
+msgstr "ゲスト購入のお客様 WOO-%s"
+
+msgid "Permission denied."
+msgstr "権限がありません。"
+
+msgid "Refreshing Xero Token"
+msgstr "Xeroトークンを更新中"
+
+msgid "SECURITY ERROR: Xero API encryption key is not defined. Please define XERO_ENCRYPTION_KEY or AUTH_KEY in wp-config.php."
+msgstr "セキュリティエラー: Xero API暗号化キーが定義されていません。wp-config.phpでXERO_ENCRYPTION_KEYまたはAUTH_KEYを定義してください。"
+
+msgid "Shipping Cost (Order ID: %s)"
+msgstr "送料 (注文ID: %s)"
+
+msgid "Successfully disconnected. Refreshing page..."
+msgstr "正常に切断されました。ページを更新しています..."
+
+msgid "Tenant ID not found. Try reconnecting."
+msgstr "テナントIDが見つかりません。再接続を試してください。"
+
+msgid "Unknown error"
+msgstr "不明なエラー"
+
+msgid "Xero API Error (%1$s): %2$s"
+msgstr "Xero APIエラー (%1$s): %2$s"
+
+msgid "Xero API HTTP Error (%1$s - Code %2$s): %3$s"
+msgstr "Xero API HTTPエラー (%1$s - コード %2$s): %3$s"
+
+msgid "Xero Invoicing Settings"
+msgstr "Xero請求設定"
+
+msgid "Xero Invoicing"
+msgstr "Xero請求"
+
+msgid "Xero Item Created successfully for SKU: %s"
+msgstr "SKU: %s のXeroアイテムが正常に作成されました"
+
+msgid "Xero Item Creation Failed for SKU: %s"
+msgstr "SKU: %s のXeroアイテム作成に失敗しました"
+
+msgid "Xero OAuth Error: Client ID or PKCE verifier missing/could not be decrypted."
+msgstr "Xero OAuthエラー: クライアントIDまたはPKCE検証コードが不足しているか、復号できませんでした。"
+
+msgid "Xero OAuth Token Error: %s"
+msgstr "Xero OAuthトークンエラー: %s"
+
+msgid "Xero OAuth Token Failure: %s"
+msgstr "Xero OAuthトークン失敗: %s"
+
+msgid "Xero Sync Failed: Could not get contact details from order."
+msgstr "Xero同期失敗: 注文から連絡先の詳細を取得できませんでした。"
+
+msgid "Xero Sync Failed: Invoice creation failed. Check PHP error logs."
+msgstr "Xero同期失敗: 請求書の作成に失敗しました。PHPエラーログを確認してください。"
+
+msgid "Xero Sync Failed: No valid line items found."
+msgstr "Xero同期失敗: 有効なラインアイテムが見つかりませんでした。"
+
+msgid "Xero Sync Failed: Plugin not connected or token expired."
+msgstr "Xero同期失敗: プラグインが接続されていないか、トークンの期限が切れています。"
+
+msgid "Xero Sync Partially Successful: Invoice %1$s created, but Payment Registration Failed (Check Xero Account Code for %2$s)."
+msgstr "Xero同期の一部成功: 請求書 %1$s は作成されましたが、支払登録に失敗しました (%2$s のXero勘定コードを確認してください)。"
+
+msgid "Xero Sync Skipped: Order status is completed but WooCommerce does not consider it paid."
+msgstr "Xero同期スキップ: 注文ステータスは完了していますが、WooCommerceは支払済みとみなしていません。"
+
+msgid "Xero Sync Successful (Invoice Created: %1$s). Payment Skipped: WooCommerce payment method \"%2$s\" is **not mapped** to a Xero Bank Account Code in the plugin settings. Please configure mappings to register payments automatically."
+msgstr "Xero同期成功 (請求書作成: %1$s)。支払登録スキップ: WooCommerce支払方法「%2$s」がプラグイン設定でXero銀行口座コードに**マッピングされていません**。支払を自動登録するにはマッピングを設定してください。"
+
+msgid "Xero Sync Successful: Invoice %s created and marked as paid."
+msgstr "Xero同期成功: 請求書 %s が作成され、支払済みとしてマークされました。"
+
+msgid "Xero Synchronization failed. See debug log for details."
+msgstr "Xero同期に失敗しました。詳細はデバッグログを確認してください。"
+
+msgid "Xero Tenant ID Error: %s"
+msgstr "XeroテナントIDエラー: %s"
+
+msgid "Xero Tenant ID Failure: Could not find tenant ID. Response: %s"
+msgstr "XeroテナントID失敗: テナントIDが見つかりませんでした。レスポンス: %s"
+
+msgid "Xero Token Refresh API Error: %s"
+msgstr "Xeroトークン更新APIエラー: %s"
+
+msgid "Xero Token Refresh Error: Refresh token missing."
+msgstr "Xeroトークン更新エラー: 更新トークンがありません。"
+
+msgid "Xero Token Refresh Failure: %s"
+msgstr "Xeroトークン更新失敗: %s"
+
+msgid "Enter your Xero Application Client ID"
+msgstr "XeroアプリケーションのクライアントIDを入力してください"
+
+msgid "(Please save your Client ID first)"
+msgstr "(最初にクライアントIDを保存してください)"
+
+msgid "-- Select Sales Account --"
+msgstr "-- 売上勘定を選択 --"
+
+msgid "-- Select Xero Account --"
+msgstr "-- Xero勘定を選択 --"
+
+msgid "1. Xero API Connection"
+msgstr "1. Xero API接続"
+
+msgid "2. Default Accounting Settings"
+msgstr "2. デフォルトの会計設定"
+
+msgid "3. Payment Method Mapping"
+msgstr "3. 支払方法のマッピング"
+
+msgid "CONNECTED"
+msgstr "接続済み"
+
+msgid "Client ID (PKCE)"
+msgstr "クライアントID (PKCE)"
+
+msgid "Connect to Xero App"
+msgstr "Xeroアプリに接続"
+
+msgid "Connection Status"
+msgstr "接続ステータス"
+
+msgid "Copy this URL exactly into the \"Redirect URI\" field in your Xero App settings."
+msgstr "このURLを正確にコピーして、Xeroアプリ設定の「Redirect URI」フィールドに貼り付けてください。"
+
+msgid "DISCONNECTED"
+msgstr "未接続"
+
+msgid "Default Sales Account Code"
+msgstr "デフォルトの売上勘定コード"
+
+msgid "Failed to connect to Xero. Check your Client ID and Redirect URI setup."
+msgstr "Xeroへの接続に失敗しました。クライアントIDとリダイレクトURIの設定を確認してください。"
+
+msgid "Map each active WooCommerce payment method to the corresponding Xero Bank Account code where the funds are deposited. Accounts are dynamically pulled from your connected Xero organization."
+msgstr "有効な各WooCommerce支払方法を、資金が預け入れられる対応するXero銀行口座コードにマッピングします。勘定科目は接続されたXero組織から動的に取得されます。"
+
+msgid "No active WooCommerce payment gateways found."
+msgstr "有効なWooCommerce支払ゲートウェイが見つかりませんでした。"
+
+msgid "Once connected to Xero, the available bank accounts will appear in the dropdown menus above."
+msgstr "Xeroに接続すると、利用可能な銀行口座が上記のドロップダウンメニューに表示されます。"
+
+msgid "Order Sync For Xero"
+msgstr "Xero注文同期"
+
+msgid "Redirect URI"
+msgstr "リダイレクトURI"
+
+msgid "Security check failed: Invalid OAuth state."
+msgstr "セキュリティチェック失敗: 無効なOAuthステートです。"
+
+msgid "Successfully connected to Xero!"
+msgstr "正常にXeroに接続されました！"
+
+msgid "Tenant ID Status: "
+msgstr "テナントIDステータス: "
+
+msgid "The default Xero Account Code for product sales (Revenue). Accounts are dynamically pulled from your connected Xero organization."
+msgstr "製品販売（収益）のデフォルトXero勘定コードです。勘定科目は接続されたXero組織から動的に取得されます。"
+
+msgid "Warning:"
+msgstr "警告:"
+
+msgid "WooCommerce Payment Method"
+msgstr "WooCommerce支払方法"
+
+msgid "Xero Bank Account Code"
+msgstr "Xero銀行口座コード"
+
+msgid "You must be connected to Xero to fetch Sales Account Codes. Please connect in Section 1."
+msgstr "売上勘定コードを取得するには、Xeroに接続する必要があります。セクション1で接続してください。"
+
+msgid "You must be connected to Xero to fetch and map Bank Accounts. Please connect in Section 1."
+msgstr "銀行口座を取得してマッピングするには、Xeroに接続する必要があります。セクション1で接続してください。"
+
+msgid "You must save your Client ID above before connecting."
+msgstr "接続する前に、上記のクライアントIDを保存する必要があります。"
+
+msgid "Your Client ID from the Xero Developer Portal. Since you are using PKCE, no secret is required."
+msgstr "XeroデベロッパーポータルのクライアントIDです。PKCEを使用しているため、シークレットは不要です。"
+
